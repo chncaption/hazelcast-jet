@@ -432,7 +432,7 @@
             <dependency>
                 <groupId>com.google.code.findbugs</groupId>
                 <artifactId>annotations</artifactId>
-                <version>3.0.0</version>
+                <version>3.0.1u2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -441,7 +441,7 @@
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>annotations</artifactId>
-            <version>3.0.0</version>
+            <version>3.0.1u2</version>
             <scope>provided</scope>
         </dependency>
 
@@ -859,7 +859,7 @@
                                         -Dhazelcast.test.defaultTestTimeoutInSeconds=600
                                     </argLine>
                                     <forkCount combine.self="override">1</forkCount>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
@@ -899,7 +899,7 @@
                                         com.hazelcast.test.annotation.NightlyTest,
                                         com.hazelcast.test.annotation.SlowTest
                                     </groups>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
