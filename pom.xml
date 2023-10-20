@@ -121,7 +121,7 @@
         <scala.version>2.12</scala.version>
         <zookeeper.version>3.5.8</zookeeper.version>
         <kafka.version>2.2.2</kafka.version>
-        <grpc.version>1.34.0</grpc.version>
+        <grpc.version>1.59.0</grpc.version>
         <protobuf.version>3.13.0</protobuf.version>
         <picocli.version>3.9.0</picocli.version>
         <jline.version>3.16.0</jline.version>
@@ -859,7 +859,7 @@
                                         -Dhazelcast.test.defaultTestTimeoutInSeconds=600
                                     </argLine>
                                     <forkCount combine.self="override">1</forkCount>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
@@ -899,7 +899,7 @@
                                         com.hazelcast.test.annotation.NightlyTest,
                                         com.hazelcast.test.annotation.SlowTest
                                     </groups>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
