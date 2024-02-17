@@ -73,7 +73,7 @@
         <timestamp>${maven.build.timestamp}</timestamp>
 
         <!-- Main IMDG dependency -->
-        <hazelcast.version>4.2</hazelcast.version>
+        <hazelcast.version>5.3.5</hazelcast.version>
         <!-- Dependencies on IMDG modules: must be the same versions IMDG depends on! -->
         <hazelcast.aws.version>3.3</hazelcast.aws.version>
         <hazelcast.kubernetes.version>2.2.2</hazelcast.kubernetes.version>
@@ -859,7 +859,7 @@
                                         -Dhazelcast.test.defaultTestTimeoutInSeconds=600
                                     </argLine>
                                     <forkCount combine.self="override">1</forkCount>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
@@ -899,7 +899,7 @@
                                         com.hazelcast.test.annotation.NightlyTest,
                                         com.hazelcast.test.annotation.SlowTest
                                     </groups>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
