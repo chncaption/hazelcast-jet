@@ -33,6 +33,6 @@
     "wait-on": "^4.0.2"
   },
   "dependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^8.0.0"
   }
 }
