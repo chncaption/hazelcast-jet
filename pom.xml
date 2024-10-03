@@ -116,7 +116,7 @@
         <prometheus.version>0.13.0</prometheus.version>
         <hadoop.version>3.3.0</hadoop.version>
         <spring.version>4.3.0.RELEASE</spring.version>
-        <avro.version>1.10.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <parquet.version>1.12.0</parquet.version>
         <scala.version>2.12</scala.version>
         <zookeeper.version>3.5.8</zookeeper.version>
@@ -859,7 +859,7 @@
                                         -Dhazelcast.test.defaultTestTimeoutInSeconds=600
                                     </argLine>
                                     <forkCount combine.self="override">1</forkCount>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
@@ -899,7 +899,7 @@
                                         com.hazelcast.test.annotation.NightlyTest,
                                         com.hazelcast.test.annotation.SlowTest
                                     </groups>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
