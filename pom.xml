@@ -109,7 +109,7 @@
         <jsr107.api.version>1.0.0</jsr107.api.version> <!-- JCache -->
         <jsr250.api.version>1.2</jsr250.api.version> <!-- javax.annotations -->
         <log4j.version>1.2.17</log4j.version>
-        <log4j2.version>2.13.3</log4j2.version>
+        <log4j2.version>2.25.3</log4j2.version>
         <slf4j.api.version>1.7.28</slf4j.api.version>
         <reflections.version>0.9.10</reflections.version>
         <osgi.version>4.2.0</osgi.version>
@@ -859,7 +859,7 @@
                                         -Dhazelcast.test.defaultTestTimeoutInSeconds=600
                                     </argLine>
                                     <forkCount combine.self="override">1</forkCount>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
@@ -899,7 +899,7 @@
                                         com.hazelcast.test.annotation.NightlyTest,
                                         com.hazelcast.test.annotation.SlowTest
                                     </groups>
-                                    <excludedGroups combine.self="override" />
+                                    <excludedGroups combine.self="override"/>
                                 </configuration>
                             </execution>
                         </executions>
